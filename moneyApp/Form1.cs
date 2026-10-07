@@ -8,18 +8,6 @@ namespace moneyApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            label1.Text = "";
-            label2.Text = "";
-            label3.Text = "";
-            label4.Text = "";
-            label5.Text = "";
-            label6.Text = "";
-            label7.Text = "";
-            label8.Text = "";
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -40,10 +28,7 @@ namespace moneyApp
             if (mebleg <= 0)
             {
                 MessageBox.Show(
-                    "Mənfi və ya sıfır məbləğ xırdalanmaz",
-                    "Diqqət",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
+                    "Mənfi və ya sıfır məbləğ xırdalanmaz",  "Diqqət", MessageBoxButtons.OK, MessageBoxIcon.Warning
                 );
 
                 return;
